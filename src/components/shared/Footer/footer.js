@@ -3,8 +3,10 @@ import './footer.scss';
 
 const footer = () => {
     return (
-        <footer>
-            <h6>Todos os diretos reservados a @Renan Dev33......</h6>
+        <footer className="footer">
+            <div className="container">
+                <p>Todos os diretos reservados a @Renan Dev33......</p>
+            </div>
         </footer>
     )
 }
