@@ -3,7 +3,7 @@ import React from 'react'
 const home = () => {
     return (
         <div>
-            Catalogo de jogos / Lista de jogos 
+            Catalogo de jogos 
         </div>
     )
 }
