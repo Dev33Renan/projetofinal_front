@@ -1,6 +1,6 @@
 import React from 'react'
 
-const tarefas = () => {
+const Tarefas = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const tarefas = () => {
     )
 }
 
-export default tarefas
+export default Tarefas

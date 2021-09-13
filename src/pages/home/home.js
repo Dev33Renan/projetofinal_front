@@ -8,8 +8,8 @@ const home = () => {
 
             <h1 className="content-title">Catalogo de Games</h1>
             <div className="content-list">
-                <GameList />
-
+              <GameList />
+              
             </div>
 
 
