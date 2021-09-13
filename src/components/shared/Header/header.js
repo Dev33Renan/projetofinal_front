@@ -4,17 +4,19 @@ import './header.scss';
 const header = () => {
     return (
         <header className="header">
-            <ul className="header-list">
-                <a href="/">
-                <li className="header-list-item">Home</li>
-                </a>
-                <a href="/gameadd">
-                <li className="header-list-item">Adicionar</li>
-                </a>
-                <a href="/tarefas">
-                <li className="header-list-item">Tarefas</li>
-                </a>
-            </ul>
+           <div className="container">
+                <ul className="header-list">
+                    <a href="/" className="header-list-item">
+                    <li>Home</li>
+                    </a>
+                    <a href="/gameadd" className="header-list-item">
+                    <li>Adicionar</li>
+                    </a>
+                    <a href="/tarefas" className="header-list-item">
+                    <li>Tarefas</li>
+                    </a>
+                </ul>
+           </div>
         </header>
     )
 }

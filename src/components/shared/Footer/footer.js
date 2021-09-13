@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './footer.scss';
 
 const footer = () => {
     return (
-        <div>
-            Footer
-        </div>
+        <footer>
+            <h6>Todos os diretos reservados a @Renan Dev33......</h6>
+        </footer>
     )
 }
 
