@@ -1,2 +1,6 @@
-@import '../../styles/palettes.scss';
-@import'../../styles/palettesglobal.scss';
+.list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}

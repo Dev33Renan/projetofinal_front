@@ -1,15 +1,17 @@
 import React from 'react'
-import gameCard from '../gameCard/gameCard';
+import GameCard from '../GameCard/GameCard';
+import './GameList.scss'
 
 
 
-const gameList = () => {
+const GameList = () => {
     return (
         <div className="list">
-            <gameCard />
+            
+            <GameCard />
             
         </div>
     )
 }
 
-export default gameList
+export default GameList

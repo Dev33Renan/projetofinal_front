@@ -1,5 +1,5 @@
 import React from 'react'
-import gameList from '../../components/structure/gameList/gameList';
+import GameList from '../../components/structure/GameList/GameList';
 import './home.scss';
 
 const home = () => {
@@ -8,7 +8,7 @@ const home = () => {
 
             <h1 className="content-title">Catalogo de Games</h1>
             <div className="content-list">
-                <gameList />
+                <GameList />
 
             </div>
 

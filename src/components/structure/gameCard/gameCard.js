@@ -1,17 +1,17 @@
 import React from 'react'
-import './gameCard.scss';
+import './GameCard.scss';
 
-const gameCard = () => {
+const GameCard = () => {
     return (
         <div className="card">
           <div className="card-img">
-            <img src="" alt=""/>
+            <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/0/06/Super-Mario-World.jpg/280px-Super-Mario-World.jpg" alt=""/>
           </div>  
-            <p className="card-text"></p>
-            <p className="card-sinopse"></p>
-            <p className="card-video"></p>
+            <p className="card-text">Teste Card</p>
+            <span className="card-sinopse">Teste Card</span>
+            <span className="card-video">Url do Video vai aqui</span>
         </div>
     )
 }
 
-export default gameCard
+export default GameCard
