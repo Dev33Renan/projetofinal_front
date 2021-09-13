@@ -1,0 +1,17 @@
+@import '../../../styles/palettes.scss';
+
+.header {
+    background-color: $color-primary;
+    color: $color-secondary;
+     
+    &-list {
+     margin: 0;
+     list-style: none;
+     display: flex;
+     align-items: flex-start;
+     justify-content: flex-start;
+        &-item {
+            padding: 0 2%;
+        }
+    }
+}

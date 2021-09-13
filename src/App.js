@@ -1,6 +1,6 @@
  import './App.scss';
- import  Header from './components/shared/Header/header';
- import  Footer from './components/shared/Footer/footer';
+ import  Header from './components/shared/Header/Header';
+ import  Footer from './components/shared/Footer/Footer';
  import { Switch , Route } from 'react-router-dom';
  import home from './pages/home/home';
  import gameadd from './pages/gameadd/gameadd';
@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-
         <Switch>
           <Route path="/" exact= {true} component= {home} />
           <Route path="/gameadd" component= {gameadd}/>
