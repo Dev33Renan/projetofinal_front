@@ -1,35 +1,36 @@
 import React from 'react'
 import './ToolCard.scss';
 
-const ToolCard = () => {
+const ToolCard = (props) => {
+    const tarefa = props.tarefa;
     return (
         <>
         <div className="card">
             <div className="card-img">
-                <img className="card-img" src='https://upload.wikimedia.org/wikipedia/pt/thumb/0/06/Super-Mario-World.jpg/280px-Super-Mario-World.jpg' alt=""/>
+                <img className="card-img" src={tarefa.titulo} alt=""/>
             </div>  
-            <p className="card-text">Teste Card</p>
-            <span className="card-sinopse">Teste Card</span>
-            <span className="card-video">Url do Video vai aqui</span>
-             
+            <p className="card-text">{tarefa.descricao}</p>
+            <span className="card-sinopse">{tarefa.prioridade}</span>
+            <span className="card-video">{tarefa.prazo}</span>
+            <span className="card-video">{tarefa.datadecriacao}</span>
+                         
         </div>
         <div className="card">
             <div className="card-img">
-                <img className="card-img" src='https://upload.wikimedia.org/wikipedia/pt/7/7b/Super_Mario_64_front.jpg' alt=""/>
+               <img className="card-img" src={tarefa.titulo} alt=""/>
             </div>  
-            <p className="card-text">Teste Card</p>
-            <span className="card-sinopse">Teste Card</span>
-            <span className="card-video">Url do Video vai aqui</span>
-             
+            <p className="card-text">{tarefa.descricao}</p>
+            <span className="card-sinopse">{tarefa.prioridade}</span>
+            <span className="card-video">{tarefa.prazo}</span>
+            <span className="card-video">{tarefa.datadecriacao}</span> 
         </div>
         <div className="card">
             <div className="card-img">
-                <img className="card-img" src='https://i.imgur.com/T1Bur0p.png' alt=""/>
-            </div>  
-            <p className="card-text">Teste Card</p>
-            <span className="card-sinopse">Teste Card</span>
-            <span className="card-video">Url do Video vai aqui</span>
-             
+                <img className="card-img" src={tarefa.titulo} alt=""/>
+            </div>    
+            <p className="card-text">{tarefa.descricao}</p>
+            <span className="card-video">{tarefa.prazo}</span>
+            <span className="card-video">{tarefa.datadecriacao}</span>
         </div>
         </>
     )   
