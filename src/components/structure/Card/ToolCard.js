@@ -1,7 +1,7 @@
 import React from 'react'
-import './GameCard.scss';
+import './TollCard.scss';
 
-const GameCard = () => {
+const ToolCard = () => {
     return (
         <>
         <div className="card">
@@ -15,7 +15,7 @@ const GameCard = () => {
         </div>
         <div className="card">
             <div className="card-img">
-                <img className="card-img" src='https://upload.wikimedia.org/wikipedia/pt/thumb/0/06/Super-Mario-World.jpg/280px-Super-Mario-World.jpg' alt=""/>
+                <img className="card-img" src='https://upload.wikimedia.org/wikipedia/pt/7/7b/Super_Mario_64_front.jpg' alt=""/>
             </div>  
             <p className="card-text">Teste Card</p>
             <span className="card-sinopse">Teste Card</span>
@@ -24,7 +24,7 @@ const GameCard = () => {
         </div>
         <div className="card">
             <div className="card-img">
-                <img className="card-img" src='https://upload.wikimedia.org/wikipedia/pt/thumb/0/06/Super-Mario-World.jpg/280px-Super-Mario-World.jpg' alt=""/>
+                <img className="card-img" src='https://i.imgur.com/T1Bur0p.png' alt=""/>
             </div>  
             <p className="card-text">Teste Card</p>
             <span className="card-sinopse">Teste Card</span>
@@ -35,4 +35,5 @@ const GameCard = () => {
     )   
 }
 
-export default GameCard
+export default ToolCard
+

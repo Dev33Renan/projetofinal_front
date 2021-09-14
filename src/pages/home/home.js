@@ -1,5 +1,5 @@
 import React from 'react'
-import GameList from '../../components/structure/GameList/GameList';
+import GameList from '../../components/structure/ToolList/ToolList';
 import './home.scss';
 
 const home = () => {

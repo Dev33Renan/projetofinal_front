@@ -3,7 +3,7 @@
  import  Footer from './components/shared/Footer/Footer';
  import { Switch , Route } from 'react-router-dom';
  import home from './pages/home/home';
- import gameadd from './pages/gameadd/gameadd';
+ import add from './pages/add/add';
  import tarefas from './pages/tarefas/tarefas';
 
 
@@ -13,7 +13,7 @@ function App() {
       <Header />
         <Switch>
           <Route path="/" exact= {true} component= {home} />
-          <Route path="/gameadd" component= {gameadd}/>
+          <Route path="/add" component= {add}/>
           <Route patch="/tarefas" component= {tarefas}/>
         </Switch>
       <Footer />
