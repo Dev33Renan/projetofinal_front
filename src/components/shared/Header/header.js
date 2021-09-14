@@ -9,7 +9,7 @@ const header = () => {
                     <a href="/" className="header-list-item">
                     <li>Home</li>
                     </a>
-                    <a href="/gameadd" className="header-list-item">
+                    <a href="/add" className="header-list-item">
                     <li>Adicionar</li>
                     </a>
                     <a href="/tarefas" className="header-list-item">

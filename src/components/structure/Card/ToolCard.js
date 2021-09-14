@@ -1,5 +1,5 @@
 import React from 'react'
-import './TollCard.scss';
+import './ToolCard.scss';
 
 const ToolCard = () => {
     return (
