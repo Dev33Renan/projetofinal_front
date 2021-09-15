@@ -1,5 +1,5 @@
 export const Api = {
-    url: 'http://localhost:3000/tarefas',
+    url: 'http://localhost:4000/tarefas',
     fetchGet: () =>  fetch(Api.url),
     fetchGetById: (id) => fetch(Api.url + '/FindById/' + id),
     fetchPost: (body) => {

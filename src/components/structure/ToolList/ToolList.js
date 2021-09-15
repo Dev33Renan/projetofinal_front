@@ -24,7 +24,7 @@ const ToolList = () => {
     return (
         <div className="list">
             {tarefas.map((tarefa, index)  => ( 
-                <ToolCard tarefa={tarefa} key={tarefa._id}/>
+                <ToolCard key={index} tarefa={tarefa} />
             ))}
         </div>
     )

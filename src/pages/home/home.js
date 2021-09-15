@@ -1,8 +1,8 @@
 import React from 'react'
 import ToolList from '../../components/structure/ToolList/ToolList';
-import './home.scss';
+import './Home.scss';
 
-const home = () => {
+const Home = () => {
     return (
         <section className="content">
 
@@ -18,4 +18,4 @@ const home = () => {
         
     )
 }
-export  default home
+export  default Home

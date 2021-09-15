@@ -1,7 +1,7 @@
 import React from 'react'
-import './add.scss';
+import './Add.scss';
 
-const add = () => {
+const Add = () => {
     return (
         <div className="text">
             <h1>Criação de tarefas</h1>
@@ -15,4 +15,4 @@ const add = () => {
     )
 }
 
-export default add
+export default Add

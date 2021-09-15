@@ -1,5 +1,5 @@
 import React from 'react'
-import './tarefas.scss';
+import './Tarefas.scss';
 import { useParams } from "react-router-dom";
 
 const Tarefas = (props) => {

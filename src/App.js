@@ -2,9 +2,9 @@
  import  Header from './components/shared/Header/Header';
  import  Footer from './components/shared/Footer/Footer';
  import { Switch , Route } from 'react-router-dom';
- import home from './pages/home/home';
- import add from './pages/add/add';
- import Tarefas from './pages/tarefas/tarefas';
+ import Home from './pages/Home/Home';
+ import Add from './pages/Add/Add';
+ import Tarefas from './pages/Tarefas/Tarefas';
 
 
 function App() {
@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <Header />
         <Switch>
-          <Route path="/" exact={true} component={home} />
-          <Route path="/add" component={add}/>
-          <Route patch="/tarefas/:id" component={Tarefas}/>
+          <Route path="/" exact={true} component={Home} />
+          <Route path="/add" component={Add}/>
+          <Route path="/tarefas/:id" component={Tarefas}/>
         </Switch>
       <Footer />
     </div>

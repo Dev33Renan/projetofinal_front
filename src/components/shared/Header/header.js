@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './header.scss';
+import './Header.scss';
 
-const header = () => {
+const Header = () => {
     return (
         <header className="header">
            <div className="container">
@@ -13,13 +13,10 @@ const header = () => {
                     <Link to="/add">                  
                     <li className="header-list-item">Adicionar</li>
                     </Link>
-                    <Link to="/tarefas">
-                    <li className="header-list-item">Tarefas</li>
-                    </Link>
                 </ul>
            </div>
         </header>
     )
 }
 
-export default header
+export default Header
