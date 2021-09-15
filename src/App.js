@@ -9,12 +9,13 @@
 
 function App() {
   return (
+    
     <div className="App">
       <Header />
         <Switch>
           <Route path="/" exact= {true} component= {home} />
           <Route path="/add" component= {add}/>
-          <Route patch="/tarefas" component= {tarefas}/>
+          <Route patch="/tarefas/:id" component= {tarefas}/>
         </Switch>
       <Footer />
     </div>

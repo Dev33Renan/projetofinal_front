@@ -7,9 +7,9 @@ import './ToolList.scss'
 const ToolList = () => {
     const [tarefas, setTarefas] = useState([]);
 
-    useEffect(() => {
-        getTarefa();    
-    }, [])
+    // useEffect(() => {
+    //     getTarefa();    
+    // }, [])
 
     const url = 'http://localhost:3000/tarefas';
 

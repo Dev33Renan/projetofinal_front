@@ -1,0 +1,30 @@
+@import '../../styles/palettes.scss';
+@import'../../styles/palettesglobal.scss';
+
+
+.view{
+    @include container;
+   
+    height:100%;
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+    
+    &-img {
+        width: 30%;
+        img{
+            width: 30%;
+            height:30%;
+        }
+    }
+
+    &-info{
+        width: 48% ;
+        &-text{
+            font-size: 20px;
+            line-height: 25px;
+            color: rgb(81, 190, 172) ;
+        }
+    }
+    
+}
