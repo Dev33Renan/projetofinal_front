@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect , useState } from 'react'
 import ToolCard from '../Card/ToolCard';
 import './ToolList.scss'
 
@@ -7,9 +7,9 @@ import './ToolList.scss'
 const ToolList = () => {
     const [tarefas, setTarefas] = useState([]);
 
-    // useEffect(() => {
-    //     getTarefa();    
-    // }, [])
+    useEffect(()=> {
+        getTarefa();    
+    }, [])
 
     const url = 'http://localhost:3000/tarefas';
 
