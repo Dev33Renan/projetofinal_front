@@ -8,14 +8,13 @@
         @include container;
     }
     &-list {
-     margin: 0;
-     list-style: none;
+      list-style: none;
      display: flex;
      align-items: flex-start;
      justify-content: flex-start;
         
         &-item {
-            
+         padding-left: 1rem;   
          color: $color-sucess;
          padding: 1% 2%;
          text-decoration: none;

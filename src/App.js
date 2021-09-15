@@ -5,6 +5,7 @@
  import Home from './pages/Home/Home';
  import Add from './pages/Add/Add';
  import Tarefas from './pages/Tarefas/Tarefas';
+import TarefasEdit from './pages/TarefasEdit/TarefasEdit';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" exact={true} component={Home} />
           <Route path="/add" component={Add}/>
           <Route path="/tarefas/:id" component={Tarefas}/>
+          <Route path="/edit/:id" component={TarefasEdit}/>
         </Switch>
       <Footer />
     </div>
