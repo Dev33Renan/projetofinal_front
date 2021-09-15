@@ -11,14 +11,14 @@ const ToolList = () => {
         getTarefa();    
     }, [])
 
-    const url = 'http://localhost:3000/tarefas';
+    const url = 'http://localhost:4000/tarefa';
 
     const getTarefa = async () => {
         const response = await fetch(url);
         const data = await response.json();
         console.log(response);
         console.log(data);
-        setTarefas(data);
+        setTarefas(data.data);
     }
 
     return (

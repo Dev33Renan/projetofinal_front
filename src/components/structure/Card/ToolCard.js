@@ -4,8 +4,9 @@ import './ToolCard.scss';
 
 const ToolCard = (props) => {
     const tarefa = props.tarefa;
+    console.log(tarefa)
     return (
-        <Link to={`/tarefas/${tarefa._id}`}>
+        <Link to="/tarefas/614154275c2cf935c895e30f">
             <div>
                 <p>{ tarefa._id }</p>
                 <div className="card-img">

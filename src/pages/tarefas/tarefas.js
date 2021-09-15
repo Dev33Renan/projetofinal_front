@@ -1,7 +1,11 @@
 import React from 'react'
 import './tarefas.scss';
+import { useParams } from "react-router-dom";
 
-const tarefas = () => {
+const Tarefas = (props) => {
+const { id } = useParams();
+    console.log(props);
+    console.log(id);
     return (
         <section className="view">
             <div className="view-img">
@@ -21,5 +25,5 @@ const tarefas = () => {
     )
 }
 
-export default tarefas
+export default Tarefas
 
