@@ -27,8 +27,8 @@ const Tarefas = (props) => {
     }       
     
     return (
-        <section className="view">
-            <div className="view-img">
+        <section className="card">
+            <div className="card-img">
             <img src="https://colegioideal.com.br/wp-content/themes/brave-ideal/img/tarefas-medio.svg" alt="imagemtarefa" width="200" height="300"/>
             </div>
             <div className="view-info">

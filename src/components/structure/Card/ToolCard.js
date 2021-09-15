@@ -7,7 +7,7 @@ const ToolCard = (props) => {
     const tarefa = props.tarefa;
     console.log(tarefa)
     return (
-        <Link to={`/tarefas/${tarefa._id}`}>
+        <Link to={`/tarefas/${tarefa._id}`} className="card">
             <div>
                 <div className="card-img">
                     <img className="card-img" src='' alt=""/>

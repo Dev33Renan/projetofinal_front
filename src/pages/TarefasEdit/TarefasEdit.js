@@ -44,7 +44,7 @@ const TarefasEdit = (props) => {
   return (
     <div className="text">
       <h2> Edição da tarefa</h2>
-      <img src="" alt="Imagem" />
+      <img src="https://colegioideal.com.br/wp-content/themes/brave-ideal/img/tarefas-medio.svg" alt="Imagem" />
       <form onSubmit={handleSubmit}>
         <div class="group">
           <label for="nome">Titulo</label>
