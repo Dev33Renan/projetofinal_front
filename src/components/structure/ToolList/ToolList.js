@@ -11,7 +11,7 @@ const ToolList = () => {
         getTarefa();    
     }, [])
 
-    const url = 'http://localhost:4000/tarefa';
+    const url = 'https://projetofinal-back.herokuapp.com/tarefa/';
 
     const getTarefa = async () => {
         const response = await fetch(url);
