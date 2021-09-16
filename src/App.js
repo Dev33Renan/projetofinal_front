@@ -3,8 +3,8 @@
  import  Footer from './components/shared/Footer/Footer';
  import { Switch , Route } from 'react-router-dom';
  import Home from './pages/home';
- import Add from './pages/add/Add';
- import Tarefas from './pages/tarefas/Tarefas';
+ import Add from './pages/add/add';
+ import Tarefas from './pages/tarefas/tarefas';
 import TarefasEdit from './pages/TarefasEdit/TarefasEdit';
 
 
