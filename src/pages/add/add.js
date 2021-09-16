@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from "react";
-import './Add.scss';
+import './add.scss';
 
 const Add = (props) => {
     const [titulo, setTitulo] = useState();
