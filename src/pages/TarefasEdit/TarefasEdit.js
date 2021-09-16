@@ -27,7 +27,7 @@ const TarefasEdit = (props) => {
     }, [])
 
 
-    const url = 'https://projetofinal-back.herokuapp.com/tarefa';
+    const url = 'https://projetofinal-back.herokuapp.com/tarefa/';
 
     const getTarefa = async () => {
         const response = await fetch(url+'/'+ props.match.params.id);
