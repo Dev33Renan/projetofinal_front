@@ -1,5 +1,5 @@
 import {useState , useEffect} from 'react'
-import './Tarefas.scss';
+import './tarefas.scss';
 import moment from 'moment';
 import { Link } from 'react-router-dom';
 
