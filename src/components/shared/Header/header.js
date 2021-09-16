@@ -7,7 +7,7 @@ const Header = () => {
         <header className="header">
            <div className="container">
                 <ul className="header-list">
-                    <Link to="/" className="header-list">
+                    <Link to="/">
                     <li className="header-list-item">Home</li>
                     </Link>
                     <Link to="/add">                  

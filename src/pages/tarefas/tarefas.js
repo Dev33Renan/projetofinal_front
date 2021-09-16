@@ -34,7 +34,7 @@ const Tarefas = (props) => {
             <div className="view-info">
                 <p className="view-info-text">Titulo: {tarefas.titulo}</p>
                 <p className="view-info-text">Descrição: {tarefas.descricao}</p>
-                <p className="view-info-text">Prioridade: {tarefas.descricao}</p>
+                <p className="view-info-text">Prioridade: {tarefas.prioridade}</p>
                 <p className="view-info-text">Status: {tarefas.status}</p>
                 <p className="view-info-text">Prazo: {tarefas.prazo}</p>
                 <p className="view-info-text">Data de Criação:{moment(tarefas.datadecriacao).format('DD/MM/YYYY')}</p>

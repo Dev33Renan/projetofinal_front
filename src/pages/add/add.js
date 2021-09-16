@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from "react";
 import './Add.scss';
 
-const Add = () => {
+const Add = (props) => {
     const [titulo, setTitulo] = useState();
     const [descricao, setDescricao] = useState();
     const [prioridade, setPrioridade] = useState();
@@ -23,14 +23,14 @@ const Add = () => {
           
         const response = await result.json();
         console.log(response);
-        
-      }
-    
+        props.history.push('/');
+        }
+     
     return (
         <div className="text">
                        
             <h2>Crie a sua tarefa</h2>
-                <img src="" alt="Imagem"/>
+                <img src="https://colegioideal.com.br/wp-content/themes/brave-ideal/img/tarefas-medio.svg" alt="Imagem" width="80" height="70"/>
             <form onSubmit={handleSubmit}>
                 <div class="group">
                     <label for="nome">Titulo</label>
@@ -59,9 +59,7 @@ const Add = () => {
                 </div>
                 <div class="btns">
                     <button>Salvar</button>
-                    <div class="btn-fake">
-                        <a href="/">Cancelar</a>
-                    </div> 
+                    <button className="btns" href="/">Cancelar</button>                     
                 </div>       
             </form>
             
