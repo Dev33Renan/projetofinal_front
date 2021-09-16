@@ -10,7 +10,7 @@ const Tarefas = (props) => {
         getTarefa();    
     }, [])
 
-    const url = 'http://localhost:4000/tarefa';
+    const url = 'https://projetofinal-back.herokuapp.com/tarefa';
 
     const getTarefa = async () => {
         const response = await fetch(url+'/'+ props.match.params.id);
@@ -21,7 +21,7 @@ const Tarefas = (props) => {
     
     const HandleDelete = async (evento) =>{
         evento.preventDefault();
-        const result = await fetch("http://localhost:4000/tarefa/"+ props.match.params.id,{method:'DELETE'})
+        const result = await fetch(url+ props.match.params.id,{method:'DELETE'})
         props.history.push('/'); 
                
     }       

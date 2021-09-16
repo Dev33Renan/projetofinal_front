@@ -12,7 +12,7 @@ const Add = (props) => {
     const handleSubmit = async (evento) => {
         evento.preventDefault();
         const dados = { titulo, descricao, prioridade, status, prazo };
-        const result = await fetch("http://localhost:4000/tarefa/add", {
+        const result = await fetch("https://projetofinal-back.herokuapp.com/tarefa/add", {
               method: 'POST',
               headers: new Headers({
                 "Content-type": "application/json"

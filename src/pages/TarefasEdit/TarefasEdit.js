@@ -12,7 +12,7 @@ const TarefasEdit = (props) => {
       evento.preventDefault();
       const dados = { titulo, descricao, prioridade, status, prazo };
       console.log(dados);
-      const result = await fetch("http://localhost:4000/tarefa/"+ props.match.params.id, {
+      const result = await fetch(url+ props.match.params.id, {
         method: 'PUT',
         headers: new Headers({
           "Content-type": "application/json"
@@ -27,7 +27,7 @@ const TarefasEdit = (props) => {
     }, [])
 
 
-    const url = 'http://localhost:4000/tarefa';
+    const url = 'https://projetofinal-back.herokuapp.com/tarefa';
 
     const getTarefa = async () => {
         const response = await fetch(url+'/'+ props.match.params.id);
