@@ -2,9 +2,9 @@
  import  Header from './components/shared/Header/Header';
  import  Footer from './components/shared/Footer/Footer';
  import { Switch , Route } from 'react-router-dom';
- import Home from './pages/Home';
- import Add from './pages/Add/Add';
- import Tarefas from './pages/Tarefas/Tarefas';
+ import Home from './pages/home';
+ import Add from './pages/add/Add';
+ import Tarefas from './pages/tarefas/Tarefas';
 import TarefasEdit from './pages/TarefasEdit/TarefasEdit';
 
 
