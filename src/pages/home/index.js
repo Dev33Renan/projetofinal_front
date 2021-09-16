@@ -1,6 +1,6 @@
 import React from 'react'
 import ToolList from '../../components/structure/ToolList/ToolList';
-import './Home.scss';
+import './home.scss';
 
 const Home = () => {
     return (
